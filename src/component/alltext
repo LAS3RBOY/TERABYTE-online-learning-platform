@@ -1,0 +1,165 @@
+<!-- {/* <div className="row" style={{ width: "95vw" }}>
+                <div className="col-2">
+                    <div className="vertical-menu">
+                        <Link to="/" className="active text-dark">HTML Introduction</Link>
+                        <Link to="/">HTML Intro</Link>
+                        <Link to="/">HTML Editor</Link>
+                        <Link to="/">HTML Basic</Link>
+                        <Link to="/">HTML Element</Link>
+                        <Link to="/">HTML Attribute</Link>
+                        <Link to="/">HTML Heading</Link>
+                        <Link to="/">HTML Paragraph</Link>
+                        <Link to="/">HTML Styles</Link>
+                        <Link to="/">HTML Formatting</Link>
+                        <Link to="/">HTML Quotations</Link>
+                        <Link to="/">HTML Comments</Link>
+                        <Link to="/">HTML Color</Link>
+                        <Link to="/">HTML CSS</Link>
+                        <Link to="/">HTML Link</Link>
+                        <Link to="/">HTML Images</Link>
+                        <Link to="/">HTML Favicon</Link>
+                        <Link to="/">HTML Page Title</Link>
+                        <Link to="/">HTML Tables</Link>
+                        <Link to="/">HTML Lists</Link>
+                        <Link to="/">HTML Block & Inline</Link>
+                        <Link to="/">HTML Classes</Link>
+                        <Link to="/">HTML Id</Link>
+                        <Link to="/">HTML Iframes</Link>
+                        <Link to="/">HTML JavaScript</Link>
+                        <Link to="/">HTML File Path</Link>
+                        <Link to="/">HTML Head</Link>
+                        <Link to="/">HTML Layout</Link>
+                        <Link to="/">HTML Responsive</Link>
+                        <Link to="/">HTML Computer Code</Link>
+                        <Link to="/">HTML Semantic</Link>
+                        <Link to="/">HTML Style Guide</Link>
+                        <Link to="/">HTML Entities</Link>
+                        <Link to="/">HTML Symbol</Link>
+                        <Link to="/">HTML Emojis</Link>
+                        <Link to="/">HTML Charset</Link>
+                        <Link to="/">HTML Url Encode</Link>
+                    </div>
+                </div>
+                <div className="col-10"> */}
+
+            {/* intro */}
+            {/* <section className='border p-5 shadow mb-5 mt-4'>
+                        <h1 className='text-center mt-3'>HTML Intro</h1>
+                        <hr />
+                        <p>HTML is the standard markup language for creating Web pages.</p>
+                        <h3 className='mt-5'>What's HTML</h3>
+                        <li>HTML stands for Hyper Text Markup Language</li>
+                        <li>HTML is the standard markup language for creating Web pages</li>
+                        <li>HTML describes the structure of a Web page</li>
+                        <li>HTML consists of a series of elements</li>
+                        <li>HTML elements tell the browser how to display the content</li>
+                        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                    </section> */}
+
+            {/* editor */}
+            {/* <section className='border p-5 shadow-lg mb-5 mt-4'>
+                        <h1 className='text-center mt-3'>HTML Editor</h1>
+                        <hr />
+                        <p>A simple text editor is all you need to learn HTML.</p>
+                        <h3 className='mt-4'>Learn HTML Using Notepad or TextEdit</h3>
+                        <p>Web pages can be created and modified by using professional HTML editors.</p>
+                        <p>However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).</p>
+                        <p>We believe that using a simple text editor is a good way to learn HTML.</p>
+                        <p>We believe that using a simple text editor is a good way to learn HTML.</p>
+                        <hr />
+                        <h3 className='mt-3'>Step 1: Open Notepad (PC)</h3>
+                        <p className='fw-bold '>Windows 8 or later:</p>
+                        <p>Open the <span className='fw-bold'> Start Screen </span>(the window symbol at the bottom left on your screen). <span className='fw-bold'>Type Notepad.</span> </p>
+                        <p className='fw-bold'>Windows 7 or earlier:</p>
+                        <p className='fw-bold'>Open Start &gt; Programs &gt; Accessories &gt; Notepad</p>
+                        <hr />
+                        <h3 className=''>Step 1: Open TextEdit (Mac)</h3>
+                        <p className='fw-bold '>Open Finder &gt; Applications &gt; TextEdit</p>
+                        <p>Also change some preferences to get the application to save files correctly. In Preferences &gt; Format &gt; choose "Plain Text"</p>
+                        <p className=''>Then under "Open and Save", check the box that says "Display HTML files as HTML code instead of formatted text".</p>
+                        <p className='fw-bold'>Open Start &gt; Programs &gt; Accessories &gt; Notepad</p>
+                        <hr />
+                        <h3 className=''>Step 2: Write some HTML</h3>
+                        <p className=''>Write or copy the following HTML code into Notepad:</p>
+                        <code>
+                            <span>&lt;</span>html<span>&gt;</span>  <br />
+                            <span>&lt;</span>head<span>&gt;</span>  <br />
+                            <span>&lt;</span>title<span>&gt;</span><span>Page title</span><span>&lt;</span>/title<span>&gt;</span>  <br />
+                            <span>&lt;</span>/head<span>&gt;</span>  <br />
+                            <span>&lt;</span>body<span>&gt;</span>  <br />
+                            <span>&lt;</span>h1<span>&gt;</span><span>This is a heading</span><span>&lt;</span>/h1<span>&gt;</span>  <br />
+                            <span>&lt;</span>p<span>&gt;</span><span>This is a paragraph</span><span>&lt;</span>/p<span>&gt;</span>  <br />
+                            <span>&lt;</span>/body<span>&gt;</span>  <br />
+                            <span>&lt;</span>/html<span>&gt;</span>  <br />
+                        </code> <br />
+                        <img src="https://www.w3schools.com/html/img_notepad.png" alt="" />
+                        <hr />
+                        <h3 className=''>Step 3: Save the HTML Page</h3>
+                        <p className='fw-bold '>Save the file on your computer. Select File &gt; Save as in the Notepad menu.</p>
+                        <p>Name the file "index.htm" and set the encoding to UTF-8 (which is the preferred encoding for HTML files).</p>
+                        <img src="https://www.w3schools.com/html/img_saveas.png" alt="" />
+                        <hr />
+                        <h3 className=''>Step 4: View the HTML Page in Your Browser</h3>
+                        <p className='fw-bold '>Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with").</p>
+                        <p>The result will look much like this:</p>
+                        <img src="https://www.w3schools.com/html/img_chrome.png" alt="" /> */}
+                        {/* </section>
+
+            {/* basic section here */}
+                    <section className='border p-5 shadow-lg mb-5 mt-4'>
+                        <h1 className='text-center'>HTML Basic</h1>
+                        <hr />
+                        <p>In this chapter we will show some basic HTML examples. </p>
+                        <p> Don't worry if we use tags you have not learned about yet.</p>
+                        <hr />
+                        <h3 className='mt-5'>HTML Documents</h3>
+                        <p>All HTML documents must start with a document type declaration: <code><span>&lt;</span>!DOCTYPE html<span>&gt;</span> </code>  </p>
+                        <p>The HTML document itself begins with <code><span>&lt;</span>html<span>&gt;</span></code> and ends with <code><span>&lt;</span>/html<span>&gt;</span></code> </p>
+                        <p>The visible part of the HTML document is between <code><span>&lt;</span>body<span>&gt;</span></code> and <code><span>&lt;</span>/body<span>&gt;</span></code></p>
+                        <span className='mt-1 fw-bolder '>Example</span> <br />
+                        <code>
+                            <span>&lt;</span>html<span>&gt;</span>  <br />
+                            <span>&lt;</span>head<span>&gt;</span>  <br />
+                            <span>&lt;</span>title<span>&gt;</span><span>Page title</span><span>&lt;</span>/title<span>&gt;</span>  <br />
+                            <span>&lt;</span>/head<span>&gt;</span>  <br />
+                            <span>&lt;</span>body<span>&gt;</span>  <br />
+                            <span>&lt;</span>h1<span>&gt;</span><span>This is a heading</span><span>&lt;</span>/h1<span>&gt;</span>  <br />
+                            <span>&lt;</span>p<span>&gt;</span><span>This is a paragraph</span><span>&lt;</span>/p<span>&gt;</span>  <br />
+                            <span>&lt;</span>/body<span>&gt;</span>  <br />
+                            <span>&lt;</span>/html<span>&gt;</span>  <br />
+                        </code>
+                        <hr />
+                        <h3 className='mt-3'>The &lt;!DOCTYPE&gt; Declaration</h3>
+                        <p>The <code><span>&lt;</span>!DOCTYPE<span>&gt;</span></code> declaration represents the document type, and helps browsers to display web pages correctly.</p>
+                        <p>It must only appear once, at the top of the page (before any HTML tags).</p>
+                        <p>The <code><span>&lt;</span>!DOCTYPE<span>&gt;</span></code> declaration is not case sensitive.</p>
+                        <hr />
+                        <h3 className='mt-3'>HTML Headings</h3>
+                        <p>HTML headings are defined with the <code><span>&lt;</span>h1<span>&gt;</span></code> to <code><span>&lt;</span>h6<span>&gt;</span></code> tags</p>
+                        <p><code><span>&lt;</span>h1<span>&gt;</span></code> defines the most important heading. <code><span>&lt;</span>h6<span>&gt;</span></code>defines the least important heading.</p>
+                        <hr />
+                        <h3 className='mt-3'>HTML Paragraphs</h3>
+                        <p>HTML paragraphs are defined with the <code><span>&lt;</span>p<span>&gt;</span></code> tag</p>
+                        <hr />
+                        <h3 className='mt-3'>HTML Links</h3>
+                        <p>HTML links are defined with the <code><span>&lt;</span>a<span>&gt;</span></code> tag</p>
+                        <hr />
+                        <h3 className='mt-3'>HTML Images</h3>
+                        <p>HTML images are defined with the<code><span>&lt;</span>img<span>&gt;</span></code> tag</p> */}
+
+            {/* </section>
+                    <section className='border p-5 shadow-lg mb-5 mt-4'>
+                        <h1 className='text-center mt-3'>HTML Intro</h1>
+                        <hr />
+                        <p>HTML is the standard markup language for creating Web pages.</p>
+                        <h3 className='mt-5'>What's HTML</h3>
+                        <li>HTML stands for Hyper Text Markup Language</li>
+                        <li>HTML is the standard markup language for creating Web pages</li>
+                        <li>HTML describes the structure of a Web page</li>
+                        <li>HTML consists of a series of elements</li>
+                        <li>HTML elements tell the browser how to display the content</li>
+                        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                    </section>
+
+                </div>
+            </div> */} -->

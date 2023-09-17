@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+.navbar-custom{
+    background-color:#fbe8fc;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    position: sticky;
+}
+.navbar-custom .brand-name{
+    font-size: 25px;
+    font-weight: 900;
+
+}
+.navbar-custom-dropdown{
+    /* background-color:#da3 ; */
+}
+.button-custom{
+    background-color: #da33e6;
+    /* font-weight: 500; */
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fbe8fc;
+}
+
+.button-custom:hover{
+    color: #da33e6;
+    border: 1px solid #da33e6;
+    padding-bottom: 3px;
+}
