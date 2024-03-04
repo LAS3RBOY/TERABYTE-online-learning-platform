@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+/* about.css */
 
-.about-bg {
+body {
     background-color: #fbe8fc;
     font-family: 'Raleway', sans-serif;
 }
 
+body.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
 .about-title {
     font-size: 2rem;
-    /* padding-left: 5rem; */
 }
 
 .row {
@@ -16,8 +21,6 @@
 
 .part-one {
     margin-top: 82px;
-    /* gap: 1.5rem; */
-    /* padding-left: 4rem; */
 }
 
 .part-one .text1 {
@@ -36,8 +39,6 @@
 .part-one .intro span {
     color: #de33b6;
     font-weight: 600;
-
-
 }
 
 .button-custom-about {
@@ -49,30 +50,24 @@
     border-radius: 8px;
 }
 
-.button-custom-about-disabled {
-    border-radius: 8px;
-    border: 1px dashed #de33b6;
-    padding: 15px 18px;
-    font-size: 16px;
-    background-color: #f0adf5;
-
-}
-
 .part-two img {
     width: 100%;
 }
-
 
 .course {
     background-color: #fbe8fc;
     font-family: 'Raleway', sans-serif;
 }
 
+.course.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
 .wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* height: 13rem; */
 }
 
 .slider {
@@ -80,7 +75,7 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 80%;
+    width: 100%;
 }
 
 .slider .slide-track {

@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.CodeMirror{
+  height: 100% !important;
+}
+
+
+/* styles.css */
+
+
+
+body.dark-mode {
+  /* Dark mode styles */
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add more styles for dark mode as needed */

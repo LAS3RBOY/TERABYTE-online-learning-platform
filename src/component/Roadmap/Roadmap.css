@@ -1,0 +1,13 @@
+body {
+  background-color: #fbe8fc;
+}
+
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+/* .vertical-timeline::before{
+  top: 30px;
+  height: 100%;
+} */

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 650px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    gap: 20px;
+    padding: 40px 50px;
+    border-radius: 10px;
+}
+
+.container1 h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.container1 ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.container1 .correct {
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+.container1 .wrong {
+    background: #ffc4c4;
+    border-color: #ff4a4a;
+}

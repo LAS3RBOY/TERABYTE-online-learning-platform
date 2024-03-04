@@ -1,0 +1,21 @@
+.login-body {
+    background-image: url('../Images/user1.gif');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register-body {
+    background-image: url('../Images/user.gif');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:500px) {
+    .login-body .login-start {
+        max-width: 90px;
+    }
+}
