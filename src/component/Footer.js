@@ -36,8 +36,8 @@ const Footer = () => {
                             <div className="col text-center">
                                 <div className="h4 text-center">Use Full Links</div>
                                 <Link to="/" style={{ textDecoration: "none" }}><span style={{ color: "#090109" }}>Home</span></Link> <br />
-                                <Link to="/html" style={{ textDecoration: "none" }}><span style={{ color: "#090109" }}>Course</span></Link> <br />
-                                <Link to="/blog" style={{ textDecoration: "none" }}><span style={{ color: "#090109" }}>Blog</span></Link>
+                                <Link to="/course" style={{ textDecoration: "none" }}><span style={{ color: "#090109" }}>Course</span></Link> <br />
+                                <Link to="/quiz" style={{ textDecoration: "none" }}><span style={{ color: "#090109" }}>Quiz</span></Link>
                             </div>
                             <div className="col text-center ">
                                 <div className="h4">Contact Us</div>

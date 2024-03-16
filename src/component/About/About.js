@@ -30,7 +30,7 @@ export default function About() {
               <p className="intro my-3">Learn everything related to <span>Coding</span> at one place</p>
               <TypingAnimation />
               <div className="buttons mt-4 ">
-                <button className='button-custom-about my-2'> <Link to='/html' className=' text-decoration-none ' style={{ background: "#de33b6", color: "#fbe8fc" }}>Get Started</Link> </button>
+                <button className='button-custom-about my-2'> <Link to='/course' className=' text-decoration-none ' style={{ background: "#de33b6", color: "#fbe8fc" }}>Get Started</Link> </button>
                 <button disabled className='button-custom-about mx-2'><Link to='/compiler' className=' text-decoration-none ' style={{ background: "#de33b6", color: "#fbe8fc" }}>Practice</Link></button>
               </div>
             </div>
